@@ -1,0 +1,41 @@
+html_content = """
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy New Year 2026</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #000428, #004e92);
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            padding-top: 50px;
+        }
+        h1 {
+            font-size: 50px;
+            color: gold;
+        }
+        p {
+            font-size: 22px;
+        }
+        img {
+            width: 300px;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 0 20px white;
+        }
+    </style>
+</head>
+<body>
+    <h1>?? Happy New Year 2026 ??</h1>
+    <p>Wishing you happiness, success, and good health!</p>
+    <img src="myphoto.jpg" alt="My Photo">
+</body>
+</html>
+"""
+
+file = open("index.html", "w")
+file.write(html_content)
+file.close()
+
+print("index.html file generated successfully!")
